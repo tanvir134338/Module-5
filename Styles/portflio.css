@@ -123,3 +123,30 @@ ul li a{
 .about-parent .sp{
     margin: 15px 50px 15px 50px;
 }
+/* what I do section */
+.whatido{
+    text-align: center;
+    margin: 20px 350px 20px 350px;
+    margin-bottom: 30px;
+}
+
+.whatido-cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.whatido-cards .whatidocard{
+    border: 2px solid #fff8f3FF;
+    border-radius: 6px;
+    padding: 8px;
+    text-align: left;
+}
+
+.whatido-cards .whatidocard p{
+    color: #757575;
+    margin-top: 10px;
+}
+.whatido-cards .whatidocard h4{
+    margin: 10px;
+}
