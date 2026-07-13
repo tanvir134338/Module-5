@@ -40,7 +40,9 @@ img {
     max-width: 1200px;
     margin: auto;
 }
-
+header{
+    background-color: #fff8f3;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -71,6 +73,7 @@ ul li a {
 }
 
 /* Hero section style*/
+
 .hero-parent {
     display: flex;
     justify-content: space-between;
@@ -99,8 +102,10 @@ ul li a {
     margin-top: 15px;
 }
 
+
 .Hero-parent-root {
     background-color: #fff8f3FF;
+    /* height: 700px; */
 }
 
 /* About Section css */
@@ -291,6 +296,6 @@ margin: 10px 0;
     padding-left: 30px;
 }
 .footerleft{
-    margin-left: 400px;
+    margin-left: 200px;
     margin-top: 0px;
 }
