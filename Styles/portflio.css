@@ -150,3 +150,33 @@ ul li a{
 .whatido-cards .whatidocard h4{
     margin: 10px;
 }
+
+.Sum-resume .h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.resume-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+.Sum-resume{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.sum{
+    display: ;
+}
+
+.sum{
+    margin-bottom: 40px;
+    border-bottom: 1px solid #e9e0e0;
+    padding-bottom: 40px;
+}
+
+.cvbtn{
+    display: flex;
+    justify-content: center;
+}
