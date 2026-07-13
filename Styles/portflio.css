@@ -1,7 +1,13 @@
+/* Rest style defult */
+
 *{
     padding: 0;
     margin: 0;
     font-family: "Open Sans", sans-serif;
+}
+img{
+    max-width: 100%;
+
 }
 
 /* Common Button Style */
@@ -9,23 +15,41 @@
     background-color:#FD6E0A;
     padding: 8px 18px;
     border-radius: 6px;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 22px;
     color: white;
     border: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.outlinebutton{
+    background-color:#ffffff;
+    padding: 8px 18px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    background-color:#ffffff;
+    border: 1.5px solid #FD6E0A ;
+    cursor: pointer;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
     padding: 12px 0px;
+    font-weight: 400;
+    font-size: 20px;
 }
 
 .logo{
-    font-weight: bold;
-    font-size: 32px;
+    font-weight: 800;
+    font-size: 45px;
 }
 
 .logo-r{
@@ -42,4 +66,60 @@ ul{
 
 ul li a{
     text-decoration: none;
+}
+
+/* Hero section style*/
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left h2{
+    font-weight: 800;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.hero-left-p1{
+    font-weight: 650;
+    font-size: 30px;
+    /* margin-bottom: 30px; */
+}
+.hero-left-p2{
+    font-weight: 500;
+    font-size: 23px;
+    margin-bottom: 50px;
+}
+
+.hero-left-button-parent{
+    margin-top: 15px;
+}
+
+.Hero-parent-root{
+    background-color:#fff8f3FF;
+}
+/* About Section css */
+.about-parent{
+    background-color:#fff8f3FF ;
+    margin: 70px auto;
+    border-radius: 6px;
+    padding: 50px;
+    text-align: center;
+
+}
+.about-box-parent{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.about-box-parent .box{
+    background-color: #daccc1;
+    padding: 6px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+.about-parent .sp{
+    margin: 15px 50px 15px 50px;
 }
