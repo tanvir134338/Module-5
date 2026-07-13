@@ -1,18 +1,19 @@
 /* Rest style defult */
 
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: "Open Sans", sans-serif;
 }
-img{
+
+img {
     max-width: 100%;
 
 }
 
 /* Common Button Style */
-.commonbutton{
-    background-color:#FD6E0A;
+.commonbutton {
+    background-color: #FD6E0A;
     padding: 8px 18px;
     border-radius: 6px;
     font-weight: 700;
@@ -22,24 +23,25 @@ img{
     cursor: pointer;
     margin-right: 15px;
 }
-.outlinebutton{
-    background-color:#ffffff;
+
+.outlinebutton {
+    background-color: #ffffff;
     padding: 8px 18px;
     border-radius: 6px;
     font-weight: 700;
     font-size: 22px;
     color: rgb(0, 0, 0);
-    background-color:#ffffff;
-    border: 1.5px solid #FD6E0A ;
+    background-color: #ffffff;
+    border: 1.5px solid #FD6E0A;
     cursor: pointer;
 }
 
-.container{
+.container {
     max-width: 1200px;
     margin: auto;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     padding: 12px 0px;
@@ -47,16 +49,16 @@ nav{
     font-size: 20px;
 }
 
-.logo{
+.logo {
     font-weight: 800;
     font-size: 45px;
 }
 
-.logo-r{
+.logo-r {
     color: #FD6E0A;
 }
 
-ul{
+ul {
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -64,120 +66,176 @@ ul{
     align-items: center;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
 }
 
 /* Hero section style*/
-.hero-parent{
+.hero-parent {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.hero-left h2{
+.hero-left h2 {
     font-weight: 800;
     font-size: 50px;
     margin-bottom: 50px;
 }
-.hero-left-p1{
+
+.hero-left-p1 {
     font-weight: 650;
     font-size: 30px;
     /* margin-bottom: 30px; */
 }
-.hero-left-p2{
+
+.hero-left-p2 {
     font-weight: 500;
     font-size: 23px;
     margin-bottom: 50px;
 }
 
-.hero-left-button-parent{
+.hero-left-button-parent {
     margin-top: 15px;
 }
 
-.Hero-parent-root{
-    background-color:#fff8f3FF;
+.Hero-parent-root {
+    background-color: #fff8f3FF;
 }
+
 /* About Section css */
-.about-parent{
-    background-color:#fff8f3FF ;
+.about-parent {
+    background-color: #fff8f3FF;
     margin: 70px auto;
     border-radius: 6px;
     padding: 50px;
     text-align: center;
 
 }
-.about-box-parent{
+
+.about-box-parent {
     display: flex;
     justify-content: center;
     justify-content: space-between;
     gap: 8px;
 }
 
-.about-box-parent .box{
+.about-box-parent .box {
     background-color: #daccc1;
     padding: 6px;
     border-radius: 6px;
     margin-top: 10px;
 }
-.about-parent .sp{
+
+.about-parent .sp {
     margin: 15px 50px 15px 50px;
 }
+
 /* what I do section */
-.whatido{
+.whatido {
     text-align: center;
     margin: 20px 350px 20px 350px;
     margin-bottom: 30px;
 }
 
-.whatido-cards{
+.whatido-cards {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
-.whatido-cards .whatidocard{
-    border: 2px solid #fff8f3FF;
+
+.whatido-cards .whatidocard {
+    border: 2px solid rgb(212, 206, 203);
     border-radius: 6px;
     padding: 8px;
     text-align: left;
 }
 
-.whatido-cards .whatidocard p{
+.whatido-cards .whatidocard p {
     color: #757575;
     margin-top: 10px;
 }
-.whatido-cards .whatidocard h4{
+
+.whatido-cards .whatidocard h4 {
     margin: 10px;
 }
 
-.Sum-resume .h2{
+.Sum-resume .h2 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 30px;
 }
 
-.resume-container{
+.resume-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
 }
-.Sum-resume{
+
+.Sum-resume {
     max-width: 1140px;
     margin: 0 auto;
 }
-.sum{
-    display: 
+
+.sum {
+    display:
 }
 
-.sum{
+.sum {
 
     margin-bottom: 40px;
     border-bottom: 1px solid #e9e0e0;
     padding-bottom: 40px;
 }
 
-.cvbtn{
+.cvbtn {
     display: flex;
     justify-content: center;
+}
+
+/* My amazing work section css */
+.my-amazing-parent {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gallary {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    grid-template-areas: "one two three"
+        'four two six'
+        "four five six";
+}
+
+.gallary img {
+    height: 95%;
+    width: 95%;
+    object-fit: cover;
+}
+
+.box1 {
+    grid-area: one;
+}
+
+.box2 {
+    grid-area: two;
+}
+
+.box3 {
+    grid-area: three;
+}
+
+.box4 {
+    grid-area: four;
+}
+
+.box5 {
+    grid-area: five;
+}
+
+.box6 {
+    grid-area: six;
 }
